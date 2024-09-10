@@ -29,7 +29,7 @@ export default function BooksPage() {
     <div>
       <Navigation />
       <h2 className="bookspage--title">
-        From Page to Page: Unveiling a Kaleidoscope of Literary Delights
+      De página em página: desvendando um cardapio de delícias literárias
       </h2>
       <SearchBar
         data={booksdata}

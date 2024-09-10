@@ -50,7 +50,7 @@ export default function SearchBar({ data, onSelectBook, onClearInput }) {
             >
               <div className="searchbar--output">
                 <div className="searchbar--output--title">{value.title}</div> 
-                <div className="searchbar--output--author">by {value.author}</div>
+                <div className="searchbar--output--author">por {value.author}</div>
               </div>
             </div>
           ))}

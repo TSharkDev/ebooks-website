@@ -7,13 +7,13 @@ export default function Navbar() {
     <div className="hero">
       <Navigation />
       <div className="homepage--texts">
-      <h1 className="nav--text">A WORLD IN PAGES</h1>
+      <h1 className="nav--text">UM MUNDO EM PÁGINAS</h1>
       <p className="nav--para">
-        Embark on a literary journey where every click reveals a new chapter,
-        and every story awaits its avid reader. Welcome to the world of ebooks,
-        where dreams come alive on every page.
+      Embarque numa viagem literária onde cada clique revela um novo capítulo,
+        e toda história aguarda seu leitor ávido. Bem-vindo ao mundo dos e-books,
+        onde os sonhos ganham vida em cada página.
       </p>
-      <p className="nav--subpara">Coded with hate, love & pani puri by Nagraj</p>
+      <p className="nav--subpara">Codificado com ódio, amor e pani por Abel Sannts </p>
       </div>
       <div className="lottie--container">
         <Lottie animationData={books} />

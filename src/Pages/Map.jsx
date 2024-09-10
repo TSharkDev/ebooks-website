@@ -13,63 +13,63 @@ export default function Map() {
   return (
     <div>
       <Navigation />
-      <h1 className="overviewpage--title">Overview</h1>
+      <h1 className="overviewpage--title">Visão geral</h1>
       <div className="overview--container">
         <div className="overview--card">
           <div className="section">
             <img src={homeicon} alt="Home" className="section--icon" />
             <h2 className="section-heading">
-              <Link to="/">Home</Link>
+              <Link to="/">Inicio</Link>
             </h2>
             <p className="map--para">
-              The books you see on home page are randomly generated. Every time
-              you refresh the page, you get a random suggestion.
+            Os livros que você vê na página inicial são gerados aleatoriamente. Toda vez
+            você atualiza a página e recebe uma sugestão aleatória.
             </p>
           </div>
           <div className="section">
             <img src={bookstack} alt="Books" className="section--icon" />
             <h2 className="section-heading">
-              <Link to="/books">Books</Link>
+              <Link to="/books">Livros</Link>
             </h2>
             <p className="map--para">
-              Obviously, it has books. Feel free to download (No Pressure).
-              Genre & Pages are mentioned.
+            Obviamente, com os livros. Sinta-se à vontade para fazer o download (sem pressão).
+            Gênero e páginas são mencionados.
             </p>
           </div>
           <div className="section">
             <img src={authoricon} alt="Authors" className="section--icon" />
             <h2 className="section-heading">
-              <Link to="/authors">Authors</Link>
+              <Link to="/authors">Autores</Link>
             </h2>
             <p className="map--para">
-              Umm... Authors info and their works i guess. Click to explore more
-              (on the authors).
+            Umm... Informações dos autores e seus trabalhos. Clique para explorar mais
+            (nos autores).
             </p>
           </div>
           <div className="section">
             <img src={quotation} alt="Quotes" className="section--icon" />
             <h2 className="section-heading">
-              <Link to="/quotes">Quotes</Link>
+              <Link to="/quotes">Citações</Link>
             </h2>
             <p className="map--para">
-              Famous lines from authors accumulated from the Internet.
+            Frases famosas de autores acumuladas na Internet.
             </p>
           </div>
           <div className="section">
             <img src={abouticon} alt="About" className="section--icon" />
             <h2 className="section-heading">
-              <Link to="/aboutme">About</Link>
+              <Link to="/aboutme">Sobre</Link>
             </h2>
-            <p className="map--para">It has info about me. Duh...</p>
+            <p className="map--para">Tem informações sobre varios autores....</p>
           </div>
           <div className="section">
             <img src={contact} alt="Contact" className="section--icon" />
             <h2 className="section-heading">
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Contato</Link>
             </h2>
             <p className="map--para">
-              It has a contact form and copyright information. If you want any
-              books, use contact form. Thanks!
+            Possui formulário de contato e informações de direitos autorais. Se você quiser algum
+            livros, use o formulário de contato. Obrigado!
             </p>
           </div>
         </div>

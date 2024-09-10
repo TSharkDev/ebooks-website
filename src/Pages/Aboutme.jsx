@@ -9,37 +9,36 @@ export default function Aboutme() {
   return (
     <div>
       <Navigation />
-      <h2 className="author--book--title">The Creator</h2>
+      <h2 className="author--book--title">SEPROMI</h2>
       <div className="nagraj--intro--card--container">
         <div className="nagraj--intro--card">
           <div>
             <img className="nagraj-image" src={pic} alt="Nagraj Tadingi" />
             <div className="author-info">
               <p className="nagraj-para">
-                Hello! I&apos;m Nagraj, the creator and curator behind this
-                books website. As an avid reader and lifelong learner, I&apos;ve
-                always found solace, inspiration, and endless possibilities
-                within the pages of books.
+              Olá! Sejam bem vindos a Livraria da SEPROMI 'Secretaria da Promoção de Igualdade Racial', por trás deste
+                aplicativo web de livros , você ira encontra consolo, inspiração e possibilidades infinitas
+                dentro das páginas dos livros.
                 <br />
                 <br />
-                I have a particular admiration for authors like Andy Weir, whose
-                scientific thrillers take us on thrilling journeys through space
-                and beyond. I also find myself immersed in the intricate worlds
-                crafted by Brandon Sanderson, whose epic fantasy novels are
-                known for their rich characters and intricate magic systems. And
-                when it comes to the enigmatic and thought-provoking, Haruki
-                Murakami&apos;s surreal and introspective works never fail to
-                captivate me.
+                Temos uma admiração por autores , cujo
+                thrillers científicos nos levam a viagens emocionantes pelo espaço
+                e além. Em encontro imerso nos mundos intrincados
+                e criado por, cujos romances épicos de fantasia são
+                conhecido por seus personagens ricos e sistemas mágicos intrincados. E
+                quando se trata do enigmático e instigante
+                As obras surreais e introspectivas de que nunca deixam de
+                cativar as pessoas.
                 <br />
                 <br />
-                This website is a platform where I aim to share my love for
-                books. My mission is to ignite the joy of reading, foster
-                meaningful conversations, and celebrate the incredible power of
-                storytelling.
+                Esta é uma plataforma onde compartilharemos o amor por
+                livros. A missão da SEPROMI é despertar a alegria da leitura, fomentar
+                conversas significativas e celebrar o incrível poder de
+                contar histórias.
               </p>
               <div className="nagraj--links">
                 <a
-                  href="https://www.goodreads.com/user/show/57097572-thatguywithabook"
+                  href="https://www.goodreads.com/user/show/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -50,7 +49,7 @@ export default function Aboutme() {
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/thatguywithabook"
+                  href="https://www.instagram.com/tEST"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -61,14 +60,14 @@ export default function Aboutme() {
                   />
                 </a>
                 <a
-                  href="https://thatguywithabook.tumblr.com/"
+                  href="https://"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={tumblr} alt="Tumblr" className="nagraj--social" />
                 </a>
                 <a
-                  href="https://twitter.com/studyingquakes"
+                  href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

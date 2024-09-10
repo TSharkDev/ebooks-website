@@ -42,7 +42,7 @@ export default function Quotes() {
       <Navigation />
       <div className="quotespage--container">
         <h1 className="quotes--heading">
-          Quill&apos;s Symphony: Inspiring Quotes from the Ink of Authors
+        Sinfonia de morrer: citações inspiradoras da tinta dos autores
         </h1>
         <div className="quotes--home">
           {shuffledQuotes.map((lines) => (

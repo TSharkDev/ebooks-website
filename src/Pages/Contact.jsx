@@ -57,10 +57,10 @@ export default function Contact() {
   return (
     <div>
       <Navigation />
-      <h2 className="contactpage--title">Contacts & Copyright</h2>
+      <h2 className="contactpage--title">Contatos & Copyright</h2>
       <div className="contact--home">
         <div className="contact--container">
-          <h3 className="contact--title">E-pegion at your service!</h3>
+          <h3 className="contact--title">SEPROMI ao seu serviço!</h3>
           <form
             onSubmit={handleSubmit}
             ref={form}
@@ -68,7 +68,7 @@ export default function Contact() {
             autoComplete="off"
           >
             <div className="form-group">
-              <label htmlFor="name">Name:</label>
+              <label htmlFor="name">Nome:</label>
               <input
                 className="contact--input"
                 type="text"
@@ -96,7 +96,7 @@ export default function Contact() {
             </div>
 
             <div className="form-group">
-              <label htmlFor="message">Message:</label>
+              <label htmlFor="message">Mensagem:</label>
               <textarea
                 id="message"
                 name="message"
@@ -124,7 +124,7 @@ export default function Contact() {
                   </svg>
                 </div>
               </div>
-              <span className="send--text">Send</span>
+              <span className="send--text">Enviar</span>
             </button>
           </form>
           <Snackbar
@@ -148,9 +148,9 @@ export default function Contact() {
         
       </div>
       <div className="information--card">
-        <h2 className="information--card--title">Contact Details</h2>
-        <p className="information--para">E-mail: findnagraj@gmail.com <br /> 
-        Based in India</p>
+        <h2 className="information--card--title">Detalhes do Contatos</h2>
+        <p className="information--para">E-mail: sepromiba@ba.gov.br.com <br /> 
+        Com sede na Pituba, SSA</p>
         <div>
           <img src={contact} alt="contact" className="contact--illustration" />
         </div>
@@ -160,15 +160,15 @@ export default function Contact() {
       <div className="copyright--card">
         <h2 className="copyright--title">Copyright</h2>
         <p className="copyright--para">
-          All the pictures and ebooks featured on my website have been sourced
-          from the internet. I would like to make it clear that I do not claim
-          any ownership or copyright over these materials. They are used solely
-          for informational and educational purposes on my website. I am
-          grateful to the original creators for sharing their work online, and I
-          have made every effort to credit and acknowledge their contributions
-          wherever possible. If any copyright holder believes that their rights
-          have been violated, kindly contact me so that I can promptly address
-          the concern.
+        Todas as fotos e e-books apresentados no aplicativo web foram obtidos
+          da internet. Gostaria de deixar claro que não reivindico
+          qualquer propriedade ou direito autoral sobre esses materiais. Eles são usados ​​exclusivamente
+          para fins informativos e educacionais em nossa plataforma. Nos somos
+          grato aos criadores originais por compartilharem seu trabalho on-line, e oque
+          fizeram todos os esforços para creditar e reconhecer suas contribuições
+          sempre que possível. Se algum detentor de direitos autorais acreditar que seus direitos
+          foram violadas, por favor entre em contato conosco para que eu possa resolver imediatamente
+          a preocupação.
         </p>
         <div>
           <div className="email--icon">

@@ -20,7 +20,7 @@ export default function BookCard(props) {
       <button className="card--btn" onClick={handleDownload}>
         Download
       </button>
-      <p className="pages--count">{props.data.pages}pages</p>
+      <p className="pages--count">{props.data.pages}paginas</p>
     </div>
   );
 }

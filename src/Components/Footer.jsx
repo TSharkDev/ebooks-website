@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="social--icons">
         <a
-          href="https://www.instagram.com/thatguywithabook"
+          href="https://www.instagram.com/sepromi"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ export default function Footer() {
         </a>
         <div className="footer-divider"></div>
         <a 
-          href="https://www.github.com/nagraj05"
+          href="https://www.github.com/sepromi"
           target="_blank"
           rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ export default function Footer() {
         </a>
         <div className="footer-divider"></div>
         <a 
-          href="https://www.twitter.com/StudyingQuakes"
+          href="https://www.twitter.com/sepromi"
           target="_blank"
           rel="noopener noreferrer"
           >
@@ -50,8 +50,8 @@ export default function Footer() {
         </a>
       </div>
       <div className="footer-para">
-      Coded & developed completely                                                        by{" "}
-        <Link to="/aboutme" className="footer--name--link">Nagraj Tadingi</Link>
+      Codificado e desenvolvido completamente                                                        por{" "}
+        <Link to="/aboutme" className="footer--name--link">Abel Sannts</Link>
       </div>
     </footer>
   );

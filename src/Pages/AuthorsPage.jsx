@@ -24,7 +24,7 @@ export default function AuthorPage() {
   const author = authorsData.find((author) => author.id === Number(id));
 
   if (!author) {
-    return <div>Author not found</div>;
+    return <div>Ator não encontrado</div>;
   }
 
   const filteredAuthorsInfo = authorsInfo.filter(
@@ -42,23 +42,23 @@ export default function AuthorPage() {
               <img className="author-image" src={info.img} alt={info.name} />
               <div className="author-info">
                 <p className="info-genre">
-                  <span className="label">Genre:</span>
+                  <span className="label">Gênero:</span>
                   {info.genre}
                 </p>
                 {info.born && (
                   <p className="info-born">
-                    <span className="label">Born:</span>
+                    <span className="label">Nascer:</span>
                     {info.born}
                   </p>
                 )}
                 {info.died && (
                   <p className="info-died">
-                    <span className="label">Died:</span>
+                    <span className="label">Morreu:</span>
                     {info.died}
                   </p>
                 )}
                 <p className="info-about">
-                  <span className="label">About:</span>
+                  <span className="label">Sobre:</span>
                   {info.about}
                 </p>
               </div>
@@ -73,7 +73,7 @@ export default function AuthorPage() {
               <img src={book.img} alt={book.title} className="book-img" />
               <div className="author--book--intro">
                 <p className="book--title">{book.title}</p>
-                <p className="book--pages">{book.pages} pages</p>
+                <p className="book--pages">{book.pages} páginas</p>
                 <button
                   className="download--button"
                   onClick={() => handleDownload(book.value)}

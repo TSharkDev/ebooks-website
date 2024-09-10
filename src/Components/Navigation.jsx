@@ -6,7 +6,7 @@ export default function Navigation() {
     <header className='header'>
       <div className="logo">
        <h2 className="website--title">
-       📚 FICTIONERS
+       📚 Livraria SEPROMI
        </h2>
       </div>
       <div className="navigation">
@@ -14,25 +14,25 @@ export default function Navigation() {
         <div className="hamburger"></div>
         <ul className="menu">
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="/">INICIO</Link>
           </li>
           <li>
             <Link to="/overview">MAP</Link>
           </li>
           <li>
-            <Link to="/books">BOOKS</Link>
+            <Link to="/books">LIVROS</Link>
           </li>
           <li>
-            <Link to="/authors">AUTHORS</Link>
+            <Link to="/authors">AUTORES</Link>
           </li>
           <li>
-            <Link to="/quotes">QUOTES</Link>
+            <Link to="/quotes">CITAÇÕES</Link>
           </li>
           <li>
-            <Link to="/aboutme">ABOUT</Link>
+            <Link to="/aboutme">SOBRE</Link>
           </li>
           <li>
-            <Link to="/contact">CONTACT</Link>
+            <Link to="/contact">CONTATO</Link>
           </li>
           </ul>
       </div>
